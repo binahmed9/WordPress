@@ -190,14 +190,9 @@ body {
 .team .container .box:hover .content h3 {
   color: #777;
 }
-.team .container .box:hover .content .info i.fa-long-arrow-alt-right {
+.team .container .box:hover .content .info i {
   color: #3586ff;
   animation: moving-arrow 0.6s linear infinite;
-}
-@keyframes moving-arrow {
-  100% {
-    transform: translateX(10px);
-  }
 }
 .team .container .box:hover .content .info i.fa-youtube {
   color: #3586ff;

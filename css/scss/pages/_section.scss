@@ -170,19 +170,12 @@
             }
 
             // hover.==================
-            &:hover .content .info i.fa-long-arrow-alt-right {
+            &:hover .content .info i {
                 // ==================
                 color: $clr--11--main-color;
                 // ==================
                 animation: moving-arrow 0.6s linear infinite;
                 // ==================
-
-                // *.==================
-                @keyframes moving-arrow {
-                    100% {
-                        transform: translateX(10px);
-                    }
-                }
             }
 
             // hover.==================
